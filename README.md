@@ -1,45 +1,39 @@
-# Functional JavaScript Programming
-##### By Luis Atencio
+# 함수형 자바스크립트 프로그래밍(Functional JavaScript Programming)
+##### 저자: 루이스 아텐시오
+##### 역자: 이일웅
 
-Since this code uses ES6 artifacts, any code meant to run on the browser must be transpiled with either:
-
-* Babel
-* Traceur
-
-For Node.js users. This code requires:
+노드JS 사용자는 최소 6.3.1 이상을 설치해야 합니다.
 
 node --version > 6.3.1
 
-Please begin the project with
+다음 명령어로 프로젝트를 시작하면 필요한 함수형 라이브러리를 모두 내려받습니다.
 
 ~~~
 npm install
 ~~~
 
-To load all of the required functional libraries.
+이 저장소에 들어있는 내용은,
 
-In this repo you will find:
-
-* All code samples (as runnable unit tests) of code used in chapters
-* JS targeted for browser
-* Functional data types like Optional, Either, Maybe, etc
-* Access to some JavaScript functional libraries like lodash.js, rxjs, etc.
+* 각 장에 나온 샘플 코드 일체(실행 가능한 단위 테스트)
+* 브라우저 실행용 자바스크립트
+* Optional, Either, Maybe 등의 함수형 자료형
+* 로대시JS, RxJS 같은 함수형 자바스크립트 라이브러리에 접근하는 방법
 
 ### QUnit
 npm install qunit
 
-### Ramda
+### 람다JS
 npm install ramda
 
-### Lodash
+### 로대시JS
 npm install lodash
 
 ### RxJS
 npm install rxjs
 
 
-## Running the tests
-Once QUnit is installed. You can run each test with the QUnit CLI by specifying the chapter number.
+## 단위 테스트 실행
+먼저, QUnit을 설치하세요. 각 테스트는 QUnit CLI에서 각 장 번호를 지정하여 실행하면 됩니다.
 ~~~
 $> npm run ch[1-8]
 ~~~
